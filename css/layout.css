@@ -20,22 +20,82 @@ body {
 .listNavBar {
 	margin: 5px 0px -5px 5px;
 }
-.listNavBar>a{
-	display: block;
+.listNavBar > ul {
+    /*nav列表*/
+}
+.listNavBar > ul > li {
+    /*nav列表*/
+    position: relative;
 	margin-bottom: 5px;
+    width: 100px;
+    height: 30px;
+	transform-style: preserve-3d;
+	perspective: 900px;
+}
+.listNavBar > ul > li > a {
+	display: block;
+    z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100px;
-	height: 30px;
+    height: 30px;
 	font-size: 15px;
 	color: #00beff;
 	font-weight: bold;
 	text-align: center;
 	line-height: 30px;
 	background: #ffffff;
-	transform-origin: left top;
-	transition: all .1s cubic-bezier(0.47, 0.03, 0, 1.15);
+	transform-origin: top center;
+	transition: all .2s cubic-bezier(0.47, 0.03, 0, 1.15);
 }
-.listNavBar>a:hover {
-	transform: scaleX(1.5);
+.listNavBar > ul > li > section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    font-size: 15px;
+    color: #00beff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    background: #ffffff;
+    transform-origin: top center;
+    transition: all .2s cubic-bezier(0.47, 0.03, 0, 1.15);
+}
+.listNavBar > ul > li:hover > a {
+    width: 130px;
+    height: 33px;
+    opacity: 0;
+    animation: hoho .21s ease-in;
+}
+.listNavBar > ul > li > a:visited {
+    width: 130px;
+    height: 33px;
+    opacity: 0;
+    animation: hoho .21s ease-in;
+}
+.listNavBar > ul > li:hover > section {
+    width: 130px;
+    height: 33px;
+    z-index: 2;
+    opacity: 1;
+}
+@keyframes hoho{
+	0% {
+	    transform: rotateX(-60deg);
+	}
+	70% {
+	    transform: rotateX(30deg);
+	}
+	100% {
+	    transform: rotateX(0);
+	}
+}
+.listNavBar > ul > li > a:active {
+    background: red;
+	transition: all .2s cubic-bezier(0.47, 0.03, 0, 1.15);
+    
 }
 .introduces {
 	width: 385px;
