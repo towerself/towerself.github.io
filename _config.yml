@@ -3,7 +3,7 @@ title: towerself
 owner: "towerself"
 url: "https://towerself.github.io"
 baseurl: "/utest"
-permalink: /utest/:title/
+permalink: /:title/
 description: ""
 markdown: kramdown
 webrick:
