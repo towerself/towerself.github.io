@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+  
   {% include head.html %}
-  <body class="page">
+  <body class="page" style="background:res;">
+    
     {% include background.html %}
     <div class="container" id="ctner">
-      {% include head.html %}
+      {% include header.html %}
       <div class="div_article" id="div_atcl">       
         <article id="main_atcl" itemscope itemtype="http://schema.org/BlogPosting">
           {{content}}
