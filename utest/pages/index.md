@@ -8,7 +8,7 @@ footer: true
 title: ""
 author: ""
 encrypted_text: true
-permalink: /utest/
+permalink: /
 ---
 
 # PROJECT NEGYA - HACKER-STYLE PERSONAL HOMEPAGE
