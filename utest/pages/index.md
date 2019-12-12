@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 post_list: "date"
 toc: true
 home_btn: true
