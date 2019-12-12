@@ -16,6 +16,6 @@ github: "towerself/towerself.github.io"
 assets_path: "/assets" # i.e. "/assets" 
 statement: "Designed by DeerRIDER, All Rights Reserved"
 # default max toc levels: 1 - 6 (h1 - h6)
-toc_level: 3
+toc_level: 10
 # texts randomly displayed in background
 bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌√"
