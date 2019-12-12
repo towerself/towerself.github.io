@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: post
 post_list: "date"
-toc: false
+toc: true
 home_btn: true
 btn_text: true
 footer: true
 title: ""
 author: ""
 encrypted_text: true
-permalink: /utest
+permalink: /utest/
 ---
 
 # PROJECT NEGYA - HACKER-STYLE PERSONAL HOMEPAGE
