@@ -2,7 +2,7 @@
 title: towerself
 owner: "towerself"
 url: "https://towerself.github.io/utest"
-baseurl: "/"
+baseurl: "/utest"
 permalink: /:title/
 description: ""
 markdown: kramdown
@@ -13,7 +13,7 @@ webrick:
 email: "towerself@126.com"
 github: "towerself/towerself.github.io"
 # path to: css/, fonts/, img/ and js/
-assets_path: "/utest/assets" # i.e. "/assets" 
+assets_path: "/assets" # i.e. "/assets" 
 statement: "Designed by DeerRIDER, All Rights Reserved"
 # default max toc levels: 1 - 6 (h1 - h6)
 toc_level: 10
